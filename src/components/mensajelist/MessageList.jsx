@@ -1,6 +1,6 @@
 function MessageList({ messages }) {
   return (
-    <div className="flex-1 overflow-y-auto p-4 flex flex-col gap-3 bg-slate-300">
+    <div className="flex-1 overflow-y-auto p-4 flex flex-col gap-3 bg-slate-300 rounded-t-lg">
       {messages.map((msg, index) => (
         <div
           key={index}

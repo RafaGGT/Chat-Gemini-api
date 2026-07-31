@@ -30,10 +30,9 @@ function ApiKeyInput() {
     {apiKey ? (
         <div className="flex items-center justify-between">
           <span className="text-sm text-white">
-            {/* Mostramos la API Key guardada, mostrando solo los primeros 6 y últimos 4 caracteres */}
-            API Key guardada ({apiKey.slice(0, 6)}...{apiKey.slice(-4)})
+            API Key guardada ({apiKey.slice(0, 1)}...{apiKey.slice(-1)})
           </span>
-          <button onClick={handleClear} className="text-sm text-red-500 hover:underline">
+          <button onClick={handleClear} className="text-sm text-white font-bold hover:underline">
             Borrar
           </button>
         </div>

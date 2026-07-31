@@ -18,7 +18,7 @@ function MessageInput({ onSend, disabled }) {
   };
   
   return (
-    <div className="flex gap-2 p-4 border-t bg-blue-900">
+    <div className="flex gap-2 p-4 border-t bg-blue-900 rounded-b-lg">
       <input
         type="text"
         value={text}
